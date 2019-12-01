@@ -2,7 +2,7 @@ The application has the same functionality as
 [https://github.com/murarova/js-band-test-task](js-bang-test-task) but using
 React.js
 
-Demo: GitHub Pages
+Demo: [https://murarova.github.io/js-band-hw-task-6/#/todos](GitHub Pages)
 
 This project was bootstrapped with
 [Create React App](https://github.com/facebook/create-react-app).
