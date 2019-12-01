@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/js-band-hw-task-6/static/css/main.ba9b3542.chunk.css",
+    "main.js": "/js-band-hw-task-6/static/js/main.8bf70e59.chunk.js",
+    "main.js.map": "/js-band-hw-task-6/static/js/main.8bf70e59.chunk.js.map",
+    "runtime-main.js": "/js-band-hw-task-6/static/js/runtime-main.de2a5d39.js",
+    "runtime-main.js.map": "/js-band-hw-task-6/static/js/runtime-main.de2a5d39.js.map",
+    "static/js/2.3b55bc42.chunk.js": "/js-band-hw-task-6/static/js/2.3b55bc42.chunk.js",
+    "static/js/2.3b55bc42.chunk.js.map": "/js-band-hw-task-6/static/js/2.3b55bc42.chunk.js.map",
+    "index.html": "/js-band-hw-task-6/index.html",
+    "precache-manifest.0eabc129a0651980bac52f5a96b73fd9.js": "/js-band-hw-task-6/precache-manifest.0eabc129a0651980bac52f5a96b73fd9.js",
+    "service-worker.js": "/js-band-hw-task-6/service-worker.js",
+    "static/css/main.ba9b3542.chunk.css.map": "/js-band-hw-task-6/static/css/main.ba9b3542.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.de2a5d39.js",
+    "static/js/2.3b55bc42.chunk.js",
+    "static/css/main.ba9b3542.chunk.css",
+    "static/js/main.8bf70e59.chunk.js"
+  ]
+}
