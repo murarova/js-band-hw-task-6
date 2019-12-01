@@ -2,16 +2,21 @@
   "name": "js-band-hw-task-6",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://murarova.github.io/js-band-hw-task-6/",
   "dependencies": {
+    "bootstrap": "^3.4.1",
+    "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.2.0"
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "shortid": "^2.2.15"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",    
+    "eject": "react-scripts eject",
     "lint": "eslint ."
   },
   "eslintConfig": {
@@ -36,6 +41,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-react": "^7.17.0",
+    "gh-pages": "^2.1.1",
     "husky": "^3.1.0",
     "lint-staged": "^9.5.0",
     "prettier": "^1.19.1"
