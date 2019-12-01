@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.form,
+.main-form {
+    padding: 10px;
+    background: #fff;
+    margin: 20px auto;
+    border-radius: 2px;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2),
+        0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+        0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+}
+
+.main-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.width-100 {
+    width: 100% !important;
+}
+
+.block-center {
+    display: flex;
+    justify-content: center;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.note-list {
+    margin: 20px auto 70px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-gap: 2vw;
+}
+
+.note {
+    position: relative;
+    padding: 16px;
+    border-radius: 2px;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2),
+        0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+        0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+}
+
+.done {
+    background-color: lightgray;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.title,
+.text {
+    max-width: 190px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0 0 5px;
+}
+
+.dropdawn-wrapper {
+    position: relative;
+}
+
+.dropdown {
+    position: absolute;
+    bottom: -108px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.dropdawn-btn {
+    margin-bottom: 2px;
+}
+.dropdawn-btn:last-child {
+    margin-bottom: 0;
+}
+
+@media (min-width: 480px) {
+    .note-list {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 580px) {
+    .main-form {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 760px) {
+    .note-list {
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
